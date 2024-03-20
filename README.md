@@ -80,5 +80,5 @@ python manage.py runserver
    Response Format: JSON<br>   
 ## 📷 Screenshot <hr>
 
-<img src="./app/_assets/ss.png">
+<img src="https://prnt.sc/obZrNhZueV95">
 <br>
