@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #e4e4e4;
+}
+.navbar-item{
+    margin-left: 0.5rem;
+    
+}
+
+.text-gray-500{
+    color: white!important;
+}
+.md\:hover\:text-cyan-700:hover{
+    color: white!important;
+}
+
+.calendar, .all-event {
+    width: 100%;
+    margin-top: 3rem;
+    
+  }
+
+.fc-media-screen {
+    width: 720px;
+}
+.event-header{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;}
+
+.event{
+    margin-top: 1rem;
+    border-bottom: 0.5px solid;
+}
+
+@media screen and (max-width:768px){
+    .event-page{
+        width:fit-content;
+    }
+}
